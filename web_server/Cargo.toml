@@ -1,0 +1,11 @@
+[package]
+name = "web_server"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+actix-web = "4"
+actix-multipart = "0.4"
+futures-util = "0.3"
+image = "0.24"
+actix-cors = "0.7"
