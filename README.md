@@ -149,7 +149,8 @@ Ensure the `frontend/src/test` directory contains test images (e.g., `.jpg`, `.p
 - **Test Folder Empty**: Add images to `frontend/src/test` to enable the test functionality.
 
 ## Requirements Summary
-- **Hardware**: A modern computer with at least 4GB RAM and a multi-core CPU.
+- **Hardware**: No special requirements.
+- **OS**: unix based operating systems are suggested.
 - **Software**:
   - Node.js (v14+)
   - npm (v6+)
