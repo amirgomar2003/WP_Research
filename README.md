@@ -2,7 +2,7 @@
 
 ## Purpose of the Code
 
-This project is designed to be a minimal example of WASM. this project compare the performance of three different methods for applying a grayscale filter to images: JavaScript (JS) native implementation, Rust compiled to WebAssembly (WASM), and a Rust-based API server. The goal is to evaluate and benchmark the execution speed of these approaches in a web environment, providing insights into their efficiency for image processing tasks. This comparison is particularly useful for understanding the trade-offs between client-side processing (JS and WASM) and server-side processing (Rust API) in terms of speed, scalability, and practical application in a React-based web application.
+This project is designed to be a minimal example of WebAssembly (WASM). this project compare the performance of three different methods for applying a grayscale filter to images: JavaScript (JS) native implementation, Rust compiled to WebAssembly (WASM), and a Rust-based API server. The goal is to evaluate and benchmark the execution speed of these approaches in a web environment, providing insights into their efficiency for image processing tasks. This comparison is particularly useful for understanding the trade-offs between client-side processing (JS and WASM) and server-side processing (Rust API) in terms of speed, scalability, and practical application in a React-based web application.
 
 The project serves as a proof-of-concept to:
 - **Good and minimal example of architecture of a WASM project**: This project, first of all aims to show you how you can start programming with WASM, using a small project as an example.
