@@ -5,7 +5,7 @@
 This project is designed to compare the performance of three different methods for applying a grayscale filter to images: JavaScript (JS) native implementation, Rust compiled to WebAssembly (WASM), and a Rust-based API server. The goal is to evaluate and benchmark the execution speed of these approaches in a web environment, providing insights into their efficiency for image processing tasks. This comparison is particularly useful for understanding the trade-offs between client-side processing (JS and WASM) and server-side processing (Rust API) in terms of speed, scalability, and practical application in a React-based web application.
 
 The project serves as a proof-of-concept to:
-- **Good and minimal example of architecture of a WASM project**: This project, first of all aims to show you how you can start programming with WASM with a small project.
+- **Good and minimal example of architecture of a WASM project**: This project, first of all aims to show you how you can start programming with WASM, using a small project as an example.
 - **Compare Execution Times**: Measure how long each method (JS Native, Rust WASM, Rust API) takes to process images of varying sizes.
 - **Prove Efficiency**: Demonstrate whether Rust-based solutions (WASM or API) offer performance advantages over a pure JavaScript implementation for computationally intensive tasks like image processing.
 - **Visualize Results**: Use charts to display the processing times for individual images and their averages, making it easier to analyze performance differences.
